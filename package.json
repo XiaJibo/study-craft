@@ -1,0 +1,32 @@
+{
+  "name": "react.dev",
+  "version": "0.0.0",
+  "main": "/src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@craftjs/core": "^0.2.5",
+    "@material-ui/core": "^4.12.4",
+    "material-ui-color-picker": "^3.5.1",
+    "react": "^16.12.0",
+    "react-contenteditable": "^3.3.7",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
